@@ -1,0 +1,9 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="com.clclearning.Farmer" id="farmer">
+		<constructor-arg index="0" value="Mkulima Mkenya"  />
+		<constructor-arg index="1" value="Sheep"  />
+		<constructor-arg index="2" value="10"  />		
+	</bean>
+</beans>

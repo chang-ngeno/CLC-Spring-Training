@@ -1,0 +1,162 @@
+body>header {
+    background: #eee;
+    padding: 5px;
+}
+
+body>header>a>img, body>header a  {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 5px;
+    font-size: 0.8em;
+}
+
+body>footer {
+    background: #eee;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+a:hover{
+    color: purple !important;
+    text-decoration: none !important;
+}
+.fixed-top{
+    min-width: 300px;
+}
+.nav-link:hover,
+.nav-link:active{
+    background-color: green !important;
+    color: white !important;
+    
+}
+.nav-link{
+    padding-left: 8px !important;
+}
+a{
+    color: rgba(0,0,0,.5) !important;
+}
+#divDonate{
+    /*border: 1px solid lightslategray;
+    max-width: 765px;*/
+    min-width: 16.0em;
+    /*width:17%; 
+    position:fixed; 
+    float:right;    
+    max-height:23.0em;*/
+}
+.leftContent{
+    /*max-width: 30.0em;*/
+}
+
+/* IMAGE STYLING */
+#site-logo,
+.navbar-brand{
+    max-height: 3.0em;
+    background-color: white !important;
+    padding: 0em  !important;
+}
+
+#mpesa-logo{
+    max-height: 7.0em;
+}
+#body{
+    padding-bottom: 100px;
+}
+.form-group{
+    color: rgba(0,0,0,.5) !important;
+}
+#navRegLinks a:hover{
+    color: rgb(0,0,0) !important;
+    background-color: white !important;
+}
+/* FONT STYLING*/
+h1 { font-family: Lato !important; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+h3 { font-family: Lato !important; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p,body { font-family: Lato !important; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: Lato !important; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: Lato !important; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+nav .navbar-nav li a, 
+nav .navbar-brand {
+  /*color: #000 !important;/*6d4c41 B859F0*/
+  text-transform: capitalize;
+  }
+.custom-toggler .navbar-toggler-icon {
+  /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;*/
+}
+form,
+h5,h4,h3,h2,h1{
+   /*font-size: 14px !important;*/
+    color: purple !important;
+}
+
+.paybill-account,
+.paybill-number{
+    color: purple;
+}
+
+/* Background image */
+body, html {
+  /*height: 100%;
+  color: #6d4c41 !important;*/
+}
+.bg { 
+  /* The image used */
+  /*background-image: url("../img/grey-website-background.jpg");*/
+
+  /* Full height */
+  /*height: 100%; */
+
+  /* Center and scale the image nicely */
+ /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+/* Style all font awesome icons */
+#socialLinks {
+  padding: 20px 0;
+  background-color: lightgray !important;
+}
+
+#socialLinks a {
+  color: rgba(0,0,0,.5);
+}
+
+#socialLinks .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#socialLinks .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#socialLinks #social-fb:hover {
+  color: #3B5998 !important;
+}
+
+#socialLinks #social-tw:hover {
+  color: #4099FF !important;
+}
+
+#socialLinks #social-yt:hover {
+  color: #ff0000 !important;
+}
+
+#socialLinks #social-em:hover {
+  color: #f39c12 !important;
+}
+

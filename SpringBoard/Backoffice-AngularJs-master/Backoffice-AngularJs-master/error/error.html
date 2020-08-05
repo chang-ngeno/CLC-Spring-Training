@@ -1,0 +1,11 @@
+<div>
+    <div data-ng-if="${error.code}==404">
+        <div data-ng-include="404.html"></div>
+    </div>
+    <div data-ng-if="${error.code}==500">
+        <div data-ng-include="500.html"></div>
+    </div>
+    <div data-ng-if="${error.code}==403">
+        <div data-ng-include="403.html"></div>
+    </div>
+</div>

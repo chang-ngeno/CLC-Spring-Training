@@ -1,0 +1,17 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="com.clclearning.Farmer" id="farmer">
+		<property name="farmerName" value="Kimwa" />
+		<property name="domesticAnimal" value="Kimwa" />
+		<property name="farmTools" value="Kimwa" />
+	</bean>
+	<bean class="com.clclearning.DomesticAnimals" id="animals">
+		<property name="animalName" value="Goat" />
+		<property name="animalAge" value="15" />
+	</bean>
+	<bean class="com.clclearning.FarmTools" id="tools">
+		<property name="name" value="Jembe" />
+		<property name="description" value="Kulima Shamba!" />
+	</bean>
+</beans>

@@ -1,0 +1,5 @@
+Wildfly user administration console
+User: student
+password: password
+
+<secret value="cGFzc3dvcmQ=" />

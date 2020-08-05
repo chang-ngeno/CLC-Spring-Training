@@ -1,0 +1,9 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="com.clclearning.Farmer" id="farmer">
+		<property name="farmerName" value="Kiptanui" />
+		<property name="animalName" value="cow" />
+		<property name="animalAge" value="7" />
+	</bean>
+</beans>

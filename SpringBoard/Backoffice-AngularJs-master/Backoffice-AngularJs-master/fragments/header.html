@@ -1,0 +1,141 @@
+        <div class="container-fluid bg text-dark">
+            <div id="page-header">
+                <header>
+                    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white" >
+                        <!--  Brand  -->
+                        <a class="navbar-brand" href="/home.action">
+                            <!--Gender Empowerment &amp; Wellness Center-->
+                            <img src="<c:url value="/public/img/gewec-logo-trimmed.jpeg"/>" class="img img-fluid" id="site-logo" alt="GEWEC"/>
+                        </a>
+                        <!-- Toggler/Collapsible Button  -->
+                        <button class="navbar-toggler ml-auto custom-toggler float-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon navbar-dark"></span>
+                        </button>
+                        <!-- Navbar Links  -->
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav ml-md-auto">
+                                <li class="nav-item active"><a class="nav-link" href="home.action">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#aboutUs">About us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/projects.action">Projects</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/logout.action">Logout</a></li> 
+                                <li class="nav-item"><a class="nav-link" href="#divDonate">Donate</a></li> 
+                                <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#regModal" href="#">Become a Patner</a></li>  
+                                <!--<li class="nav-item d-md-none"><a class="nav-link" href="/search.action">Search</a></li>-->
+                            </ul>
+                        </div> 
+                        <!--  Form -->
+                        <!--<form class="form-inline d-none d-md-block" action="/search.action">
+                            <div class="input-group">
+
+                                <input class="form-control " type="text" name="uname" placeholder="Username"> 
+                                <div class="input-group-append">
+                                    <span class="input-group-addon"><button class="btn btn-info">Go!</button></span>
+                                </div>
+
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">@</span>
+                                    </div>
+                                    <input class="mr-sm-2" type="button" value="Go!" />
+                                    <div class="input-group-append">
+                                        <span class="input-group-text">
+                                            <button class="btn btn-success">Go!</button>
+                                        </span>
+                                    </div>
+
+                            </div>
+                        </form>   -->            
+                    </nav>
+                </header>
+                
+            </div>
+            <hr/>
+            <main role="main">
+            <div id="pageContent">
+                <h3></h3>
+                <!--<div class="d-md-none"><a class="nav-link" href="#">Search</a></div>-->
+                <!-- Button to Open the Modal -->
+<!--
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#regModal">
+                  Open modal
+                </button>
+-->
+
+                <!-- The Login Modal -->
+                <div class="modal" id="regModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Register/Login</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body">
+
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" id="navRegLinks">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#register">Register</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#login">Login</a>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    
+                                    <div class="tab-pane container active" id="register">
+                                        <form class="form form-responsive" action="/register.action">
+                                            <div class="form-group">
+                                                <label for="uname">Username:</label>
+                                                <input type="text" class="form-control" id="uname">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Email address:</label>
+                                                <input type="email" class="form-control" id="xxwebml">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="pwd">Password:</label>
+                                                <input type="password" class="form-control" id="xxwebpd">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="cnfPwd">Confirm Password:</label>
+                                                <input type="password" class="form-control" id="cnfPwd">
+                                            </div>
+                                        <button type="submit" class="btn btn-primary float-left">Register</button>
+                                        <button type="button" class="btn btn-danger float-right" data-dismiss="modal">Close</button>
+                                    </form>
+                                            
+                                    </div>
+                                    <div class="tab-pane container fade" id="login">
+                                        <form class="form form-responsive" action="/register.action">
+                                            <div class="form-group">
+                                                <label for="uname">Username:</label>
+                                                <input type="uname" class="form-control" id="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="pwd">Password:</label>
+                                                <input type="password" class="form-control" id="pwd">
+                                            </div>
+                                            <div class="form-group form-check">
+                                                <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox"> Remember me
+                                                </label>
+                                            </div>
+                                        <button type="submit" class="btn btn-primary float-left">Register</button>
+                                        <button type="button" class="btn btn-danger float-right" data-dismiss="modal">Close</button>
+                                    </form>
+                                    </div>
+                                    
+                                </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+<!--                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>-->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>

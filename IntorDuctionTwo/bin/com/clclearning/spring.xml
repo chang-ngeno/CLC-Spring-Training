@@ -1,0 +1,11 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="com.clclearning.Person" id="person">
+		<property name="firstName" value="david" />
+		<property name="secondName" value="Muindi" />
+	</bean>
+	<bean class="com.clclearning.SteelGrading" id="steel-grading">
+		
+	</bean>
+</beans>

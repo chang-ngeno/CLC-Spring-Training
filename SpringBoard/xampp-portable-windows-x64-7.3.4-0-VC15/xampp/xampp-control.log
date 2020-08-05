@@ -1,0 +1,39 @@
+11:05:40 AM  [main] 	Initializing Control Panel
+11:05:40 AM  [main] 	Windows Version:  Pro  64-bit
+11:05:40 AM  [main] 	XAMPP Version: 7.3.4
+11:05:40 AM  [main] 	Control Panel Version: 3.2.3  [ Compiled: Mar 7th 2019 ]
+11:05:40 AM  [main] 	You are not running with administrator rights! This will work for
+11:05:40 AM  [main] 	most application stuff but whenever you do something with services
+11:05:40 AM  [main] 	there will be a security dialogue or things will break! So think 
+11:05:40 AM  [main] 	about running this application with administrator rights!
+11:05:40 AM  [main] 	XAMPP Installation Directory: "c:\users\student\documents\workspace\springboard\xampp-portable-windows-x64-7.3.4-0-vc15\xampp\"
+11:05:40 AM  [main] 	Checking for prerequisites
+11:05:40 AM  [main] 	All prerequisites found
+11:05:40 AM  [main] 	Initializing Modules
+11:05:40 AM  [Apache] 	Problem detected!
+11:05:40 AM  [Apache] 	Port 443 in use by ""C:\Program Files (x86)\VMware\VMware Workstation\vmware-hostd.exe" -u "C:\ProgramData\VMware\hostd\config.xml"" with PID 3140!
+11:05:40 AM  [Apache] 	Apache WILL NOT start without the configured ports free!
+11:05:40 AM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+11:05:40 AM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+11:05:40 AM  [main] 	The FileZilla module is disabled
+11:05:40 AM  [main] 	The Mercury module is disabled
+11:05:40 AM  [main] 	Starting Check-Timer
+11:05:40 AM  [main] 	Control Panel Ready
+11:06:12 AM  [Apache] 	Problem detected!
+11:06:12 AM  [Apache] 	Port 443 in use by ""C:\Program Files (x86)\VMware\VMware Workstation\vmware-hostd.exe" -u "C:\ProgramData\VMware\hostd\config.xml"" with PID 3140!
+11:06:12 AM  [Apache] 	Apache WILL NOT start without the configured ports free!
+11:06:12 AM  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+11:06:12 AM  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+11:06:12 AM  [Apache] 	Attempting to start Apache app...
+11:06:12 AM  [Apache] 	Status change detected: running
+11:06:13 AM  [Apache] 	Status change detected: stopped
+11:06:13 AM  [Apache] 	Error: Apache shutdown unexpectedly.
+11:06:13 AM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:06:13 AM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:06:13 AM  [Apache] 	Press the Logs button to view error logs and check
+11:06:13 AM  [Apache] 	the Windows Event Viewer for more clues
+11:06:13 AM  [Apache] 	If you need more help, copy and post this
+11:06:13 AM  [Apache] 	entire log window on the forums
+2:57:26 PM  [main] 	Deinitializing Modules
+2:57:26 PM  [main] 	Deinitializing Control Panel
+
