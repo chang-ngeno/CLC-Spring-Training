@@ -1,6 +1,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
 			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
 <beans>
-	<bean class="com.clc.Car" id="c" scope="prototype">
+	<bean class="com.clc.Car" id="c" scope="prototype" dependency-check="simple" >
+		<property name="carName" value="Mitsubishi" />
 	</bean>
 </beans>

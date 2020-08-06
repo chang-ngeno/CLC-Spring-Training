@@ -14,8 +14,8 @@ public class DiStarter {
 		
 		// work with the IOC
 		Car car = (Car) ctx.getBean("c");
-		Engine e = (Engine) ctx.getBean("e");
-		car.setEngine(e);
+		//Engine e = (Engine) ctx.getBean("e");
+		//car.setEngine(e);
 		
 		//set values
 //		e.setModelYear("2019");
