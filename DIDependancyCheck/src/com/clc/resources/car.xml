@@ -2,7 +2,5 @@
 			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
 <beans>
 	<bean class="com.clc.Car" id="c" scope="prototype">
-		<property name="carName" value="Volvo" />
-		<property name="engine" ref="e" />
 	</bean>
 </beans>
