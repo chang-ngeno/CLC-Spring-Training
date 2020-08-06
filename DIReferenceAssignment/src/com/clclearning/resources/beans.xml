@@ -1,0 +1,58 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="com.clclearning.Farmer" id="f1" scope="prototype">
+		<property name="farmerName" value="mkulima one">
+		</property>
+		<property name="domesticAnimal">
+			<list>
+				<bean class="com.clclearning.DomesticAnimals" id="animal1">
+					<property name="animalName" value="Chicken" />
+					<property name="animalAge" value="15" />
+				</bean>
+				<bean class="com.clclearning.DomesticAnimals" id="animal2">
+					<property name="animalName" value="Geese" />
+					<property name="animalAge" value="19" />
+				</bean>
+
+			</list>
+		</property>
+	</bean>
+
+	<bean class="com.clclearning.Farmer" id="f2" scope="prototype">
+		<property name="farmerName" value="mkulima two">
+		</property>
+		<property name="domesticAnimal">
+			<list>
+				<bean class="com.clclearning.DomesticAnimals" id="animal6">
+					<property name="animalName" value="Cow" />
+					<property name="animalAge" value="15" />
+				</bean>
+				<bean class="com.clclearning.DomesticAnimals" id="animal3">
+					<property name="animalName" value="Dog" />
+					<property name="animalAge" value="4" />
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+	<bean class="com.clclearning.Farmer" id="f3" scope="prototype">
+		<property name="farmerName" value="mkulima three">
+		</property>
+		<property name="domesticAnimal">
+			<list>
+				<bean class="com.clclearning.DomesticAnimals" id="animal4">
+					<property name="animalName" value="Sheep" />
+					<property name="animalAge" value="9" />
+				</bean>
+				<bean class="com.clclearning.DomesticAnimals" id="animal5">
+					<property name="animalName" value="Goat" />
+					<property name="animalAge" value="3" />
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+
+
+</beans>
